@@ -14,7 +14,7 @@ public class Fibo {
         System.out.print("Masukan Batas Deret Fibbonaci = ");
         n = input.nextInt();
    
-           for(i=0; i<=n; i++)
+           for(i=n; i>=1; i--)
            {
           
         m = hitungFibbo(i);
